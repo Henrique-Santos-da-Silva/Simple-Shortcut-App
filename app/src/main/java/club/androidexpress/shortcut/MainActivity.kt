@@ -25,13 +25,18 @@ class MainActivity : AppCompatActivity() {
 
         shortcutWrapper = ShortcutWrapper(this)
 
+        shortcutWrapper.jobInitialInstance()
+
         if (intent.action == KEY_ADD_FAVORITE) showUrlDialog()
 
         setupFabButton()
         setupList()
     }
 
-
+    override fun onDestroy() {
+        super.onDestroy()
+        shortcutWrapper.cancelJobInstance()
+    }
 
     private fun showUrlDialog() {
         val editText = EditText(this)
@@ -72,5 +77,5 @@ class MainActivity : AppCompatActivity() {
         shortcuts.addAll(shortcutWrapper.getShortcuts())
         adapter.notifyDataSetChanged()
     }
-    
+
 }
