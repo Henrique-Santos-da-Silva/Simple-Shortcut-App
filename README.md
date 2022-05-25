@@ -2,7 +2,7 @@
 
 :brazil:
 
-Projeto conhecendo e colocando em prática sobre os **Atalhos** ou [Shortcut](https://developer.android.com/guide/topics/ui/shortcuts?hl=pt-br) de aplicativos do Android. Esse projeto foi feito utilizando como tutorial o [Curso Android Express](https://androiddeveloper.com.br/inscricao). O projeto possui duas versões, a versão [Original](https://github.com/Henrique-Santos-da-Silva/Simple-Shortcut-App/tree/main) é a que foi feita seguindo o tutorial do curso e utilizando o [Async Task](https://developer.android.com/reference/android/os/AsyncTask) que está **Deprecated**, e outra versão [Atualizada](https://github.com/Henrique-Santos-da-Silva/Simple-Shortcut-App/tree/with-kotlin-coroutines) que usa [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html). **OBS: Os Shortcut só estão disponivel no Android 7.1.1 Nougat (API 25) ou acima **
+Projeto conhecendo e colocando em prática sobre os **Atalhos** ou [Shortcut](https://developer.android.com/guide/topics/ui/shortcuts?hl=pt-br) de aplicativos do Android. Esse projeto foi feito utilizando como tutorial o [Curso Android Express](https://androiddeveloper.com.br/inscricao). O projeto possui duas versões, a versão [Original](https://github.com/Henrique-Santos-da-Silva/Simple-Shortcut-App/tree/main) é a que foi feita seguindo o tutorial do curso e utilizando o [Async Task](https://developer.android.com/reference/android/os/AsyncTask) que está **Deprecated**, e outra versão [Atualizada](https://github.com/Henrique-Santos-da-Silva/Simple-Shortcut-App/tree/with-kotlin-coroutines) que usa [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html). **OBS: Os Shortcut só estão disponivel no Android 7.1.1 Nougat (API 25) ou acima**
 
 :us:
 
