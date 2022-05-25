@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shortcut</string>
+    <string name="shortcut_short_label">Favorites</string>
+    <string name="shortcut_long_label">Add Favorite Sites</string>
+    <string name="shortcut_disabled_message">Disable Message</string>
+    <string name="enter_url">Enter URl</string>
+</resources>
